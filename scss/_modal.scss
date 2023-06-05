@@ -1,0 +1,62 @@
+p{
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 29px;
+    font-style: normal;
+
+    color: #000000;
+
+}
+
+h3{
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+
+    color:  #131C6A ;
+}
+
+.text-modal{
+    background-color: #fff;
+    border-radius: 10px;
+    border: 2px solid  black;
+}
+
+.girl{
+    background-color: #fff;
+    border-radius: 10px;
+   width: 837px;
+   height: 577px;
+   @include ModalCenter();
+   display: flex;
+
+}
+
+.boy{
+    background-color: #fff;
+    border-radius: 10px;
+    border: 2px solid  black;
+}
+
+.bird{
+    background-color: #fff;
+    border-radius: 10px;
+    border: 2px solid  black;
+}
+
+.modal{
+    border: 1px solid black;
+    width: 700px;
+    height: 470px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+  i{position: absolute;
+    left:680px;
+    top: 3px;
+  }
+
