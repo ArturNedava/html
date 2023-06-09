@@ -59,6 +59,9 @@ p {
   line-height: 29px;
   font-style: normal;
   color: #000000;
+  padding-top: 72px;
+  padding-right: 37px;
+  margin-left: 29px;
 }
 
 h3 {
@@ -68,12 +71,22 @@ h3 {
   font-size: 24px;
   line-height: 29px;
   color: #131C6A;
+  padding-left: 72px;
+  padding-top: 40px;
+  padding-bottom: 72px;
 }
 
 .text-modal {
   background-color: #fff;
   border-radius: 10px;
-  border: 2px solid black;
+  border: 1px solid black;
+  width: 700px;
+  height: 400px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
 }
 
 .girl {
@@ -83,21 +96,44 @@ h3 {
   height: 577px;
   position: fixed;
   left: 50%;
-  right: 50%;
+  top: 50%;
   transform: translate(-50%, -50%);
   display: flex;
+  border: 1px solid black;
+}
+
+img {
+  width: 422px;
+  height: 512px;
+  margin-top: 40px;
+  margin-left: 49px;
+  margin-bottom: 25px;
 }
 
 .boy {
   background-color: #fff;
   border-radius: 10px;
-  border: 2px solid black;
+  border: 1px solid black;
+  width: 837px;
+  height: 577px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
 }
 
 .bird {
   background-color: #fff;
   border-radius: 10px;
   border: 2px solid black;
+  width: 837px;
+  height: 577px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
 }
 
 .modal {
@@ -110,6 +146,6 @@ h3 {
 
 i {
   position: absolute;
-  left: 680px;
-  top: 3px;
+  right: 9px;
+  top: 1px;
 }
