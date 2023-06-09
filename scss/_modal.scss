@@ -7,9 +7,10 @@ p{
 
     color: #000000;
 
-    padding-top: 72px;
-    padding-right: 37px;
-    margin-left: 29px;
+   padding-bottom: 174px;
+   padding-right: 37px;
+   padding-left: 29px; 
+   
 }
 
 h3{
@@ -32,7 +33,12 @@ h3{
     width: 700px;
     height: 400px;
     @include ModalCenter();
-    display: flex;
+   
+    p{
+        padding-right: 0;
+        margin-left: 0;
+        text-align: center;
+    }
 }
 
 .girl{
@@ -85,7 +91,8 @@ img{
 
   i{
     position: absolute;
-   right: 9px;
-   top: 1px;
+   right: 17px;
+   top: 12px;
   }
+  
 

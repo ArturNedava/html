@@ -59,9 +59,9 @@ p {
   line-height: 29px;
   font-style: normal;
   color: #000000;
-  padding-top: 72px;
+  padding-bottom: 174px;
   padding-right: 37px;
-  margin-left: 29px;
+  padding-left: 29px;
 }
 
 h3 {
@@ -86,7 +86,11 @@ h3 {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  display: flex;
+}
+.text-modal p {
+  padding-right: 0;
+  margin-left: 0;
+  text-align: center;
 }
 
 .girl {
@@ -146,6 +150,6 @@ img {
 
 i {
   position: absolute;
-  right: 9px;
-  top: 1px;
+  right: 17px;
+  top: 12px;
 }
