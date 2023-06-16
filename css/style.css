@@ -52,28 +52,18 @@ table {
   border-spacing: 0;
 }
 
-p {
-  font-family: "Inter";
-  font-size: 24px;
-  font-weight: 300;
-  line-height: 29px;
-  font-style: normal;
-  color: #000000;
-  padding-bottom: 174px;
-  padding-right: 37px;
-  padding-left: 29px;
-}
-
 h3 {
   font-family: "Inter";
   font-style: normal;
-  font-weight: 300;
-  font-size: 24px;
+  font-weight: 400;
+  font-size: 32px;
   line-height: 29px;
   color: #131C6A;
   padding-left: 72px;
   padding-top: 40px;
   padding-bottom: 72px;
+  width: 254px;
+  height: 39px;
 }
 
 .text-modal {
@@ -86,11 +76,32 @@ h3 {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  opacity: 0;
 }
-.text-modal p {
-  padding-right: 0;
-  margin-left: 0;
+.text-modal .ssy {
+  padding-top: 65px;
+  padding-left: 68px;
+  padding-right: 69px;
   text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 41px;
+  color: #000000;
+}
+.text-modal .yss {
+  text-align: center;
+  padding-top: 102px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 41px;
+  color: #000000;
+}
+.text-modal:target {
+  opacity: 1;
 }
 
 .girl {
@@ -104,14 +115,27 @@ h3 {
   transform: translate(-50%, -50%);
   display: flex;
   border: 1px solid black;
+  opacity: 0;
 }
-
-img {
+.girl img {
   width: 422px;
   height: 512px;
   margin-top: 40px;
   margin-left: 49px;
-  margin-bottom: 25px;
+}
+.girl .give {
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 29px;
+  font-style: normal;
+  color: #000000;
+  padding-bottom: 174px;
+  padding-right: 37px;
+  padding-left: 29px;
+}
+.girl:target {
+  opacity: 1;
 }
 
 .boy {
@@ -125,6 +149,27 @@ img {
   top: 50%;
   transform: translate(-50%, -50%);
   display: flex;
+  opacity: 0;
+}
+.boy img {
+  width: 435px;
+  height: 512px;
+  margin-top: 32px;
+  margin-left: 32px;
+}
+.boy .win {
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 29px;
+  font-style: normal;
+  color: #000000;
+  padding-bottom: 174px;
+  padding-right: 37px;
+  padding-left: 29px;
+}
+.boy:target {
+  opacity: 1;
 }
 
 .bird {
@@ -138,6 +183,27 @@ img {
   top: 50%;
   transform: translate(-50%, -50%);
   display: flex;
+  opacity: 0;
+}
+.bird img {
+  width: 416px;
+  height: 506px;
+  margin-top: 37px;
+  margin-left: 32px;
+}
+.bird .Boris {
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 29px;
+  font-style: normal;
+  color: #000000;
+  padding-bottom: 174px;
+  padding-right: 37px;
+  padding-left: 29px;
+}
+.bird:target {
+  opacity: 1;
 }
 
 .modal {
@@ -148,8 +214,9 @@ img {
   border-radius: 10px;
 }
 
-i {
+a {
   position: absolute;
   right: 17px;
   top: 12px;
+  color: #000000;
 }

@@ -1,29 +1,18 @@
-p{
-    font-family: "Inter";
-    font-size: 24px;
-    font-weight: 300;
-    line-height: 29px;
-    font-style: normal;
-
-    color: #000000;
-
-   padding-bottom: 174px;
-   padding-right: 37px;
-   padding-left: 29px; 
-   
-}
 
 h3{
     font-family: "Inter";
     font-style: normal;
-    font-weight: 300;
-    font-size: 24px;
+    font-weight: 400;
+    font-size: 32px;
     line-height: 29px;
 
     color:  #131C6A ;
     padding-left: 72px;
     padding-top: 40px;
     padding-bottom: 72px;
+
+    width: 254px;
+    height: 39px;
 }
 
 .text-modal{
@@ -33,11 +22,40 @@ h3{
     width: 700px;
     height: 400px;
     @include ModalCenter();
+    opacity: 0;
+
    
-    p{
-        padding-right: 0;
-        margin-left: 0;
+    .ssy{
+        padding-top: 65px;
+        padding-left: 68px;
+        padding-right: 69px;
+
         text-align: center;
+
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 34px;
+        line-height: 41px;
+        color: #000000;
+       
+    }
+    .yss{
+      
+        text-align: center;
+        padding-top: 102px;
+       
+
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 34px;
+        line-height: 41px;
+        color: #000000;
+       
+    }
+    &:target{
+        opacity: 1;
     }
 }
 
@@ -49,17 +67,37 @@ h3{
    @include ModalCenter();
    display: flex;
    border: 1px solid  black;
+   opacity: 0;
 
-}
-
-img{
+   img{
     width: 422px;
     height: 512px;
 
     margin-top: 40px;
     margin-left: 49px;
-    margin-bottom: 25px;
+   
+   }
+
+   .give{
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 29px;
+    font-style: normal;
+
+    color: #000000;
+
+   padding-bottom: 174px;
+   padding-right: 37px;
+   padding-left: 29px; 
+   }
+   &:target{
+    opacity: 1;
 }
+
+}
+
+
 
 .boy{
     background-color: #fff;
@@ -69,6 +107,35 @@ img{
     height: 577px;
     @include ModalCenter();
     display: flex;
+    opacity: 0;
+
+    img{
+        width: 435px;
+        height: 512px;
+    
+        margin-top: 32px;
+        margin-left: 32px;
+       
+       }
+
+       .win{
+        font-family: "Inter";
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 29px;
+    font-style: normal;
+
+    color: #000000;
+
+   padding-bottom: 174px;
+   padding-right: 37px;
+   padding-left: 29px; 
+
+     }
+
+     &:target{
+        opacity: 1;
+    }
 }
 
 .bird{
@@ -79,6 +146,36 @@ img{
     height: 577px;
     @include ModalCenter();
     display: flex;
+    opacity: 0;
+
+    img{
+        width: 416px;
+        height: 506px;
+    
+        margin-top: 37px;
+        margin-left: 32px;
+       
+       }
+
+ .Boris{
+
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 29px;
+    font-style: normal;
+
+    color: #000000;
+
+   padding-bottom: 174px;
+   padding-right: 37px;
+   padding-left: 29px; 
+
+ }
+
+ &:target{
+    opacity: 1;
+}
 }
 
 .modal{
@@ -89,10 +186,13 @@ img{
     border-radius: 10px;
 }
 
-  i{
+  a{
     position: absolute;
    right: 17px;
    top: 12px;
+   color: #000000;
   }
+
+ 
   
 
